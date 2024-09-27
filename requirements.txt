@@ -1,0 +1,5 @@
+fastapi
+pandas
+starlette
+plotly
+xgboost
