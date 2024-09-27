@@ -30,7 +30,7 @@ This is a simple web-based application for predicting sales using the XGboost mo
 
 ## Setup
 
-1. Download the Zip file and open it.
+1. Download the Deployment 2 Zip file and open it.
 
 2. Create Viirtual environments
    ```bash
@@ -42,4 +42,4 @@ This is a simple web-based application for predicting sales using the XGboost mo
      ```bash
     pip install -r requirements.txt
 
-If there is any questions you may follow the Steps.docx that you can find in the ZIP file or in the repository.
+If there is any questions you may follow the Steps.docx that you can find in the Deployment ZIP file or in the repository.
