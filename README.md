@@ -56,7 +56,7 @@ Open your Windows Terminal and follow the next steps:
 
 6. Then, in your cmd paste:
    ```bash
-   uvicorn app:app --reload
+    uvicorn app:app --reload
    
 7. Open the deployment at: http://127.0.0.1:8000
 
