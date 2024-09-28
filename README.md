@@ -56,7 +56,7 @@ If for some reason scikit-learn, uvicorn and python-multipart don't get installe
 
 6. Then, in your cmd paste:
    ```bash
-   uvicorn app:app --reload
+   pip install scikit-learn uvicorn python-multipart
    
 7. Open the deployment at: http://127.0.0.1:8000
 
