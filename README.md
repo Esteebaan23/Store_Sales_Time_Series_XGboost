@@ -54,11 +54,11 @@ Open your Windows Terminal and follow the next steps:
    ```bash
    pip install scikit-learn uvicorn python-multipart
 
-6. Then, in your cmd paste:
+7. Then, in your cmd paste:
    ```bash
    uvicorn app:app --reload
    
-7. Open the deployment at: http://127.0.0.1:8000
+8. Open the deployment at: http://127.0.0.1:8000
 
 
 If there is any questions you may follow the Steps.docx that you can find in the Deployment ZIP file or in the repository.
