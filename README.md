@@ -50,13 +50,13 @@ Open your Windows Terminal and follow the next steps:
     ```bash
     pip install -r requirements.txt
 
-5.1 If for some reason scikit-learn, uvicorn and python-multipart don't get installed try:
+6 If for some reason scikit-learn, uvicorn and python-multipart don't get installed try:
    ```bash
    pip install scikit-learn uvicorn python-multipart
 
 6. Then, in your cmd paste:
    ```bash
-    uvicorn app:app --reload
+   uvicorn app:app --reload
    
 7. Open the deployment at: http://127.0.0.1:8000
 
