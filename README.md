@@ -4,7 +4,7 @@ This is a simple web-based application for predicting sales using the XGboost mo
 
 ## Features
 
-- **Predict sales** using historical data and external factors like promotions, oil prices, day of the week, and payday.
+- **Predict sales and Transactions** using historical data and external factors like promotions, oil prices, day of the week, and payday.
 - **Interactive web form** to input the necessary data and get the sales prediction in real-time.
 - Uses a trained **XGboost model** for time series forecasting.
 
@@ -22,11 +22,11 @@ This is a simple web-based application for predicting sales using the XGboost mo
 - Pandas
 - Statsmodels
 - Uvicorn (for running the FastAPI server)
-- starlette
-- plotly
-- xgboost
-- scikit-learn
-- python-multipart
+- Starlette
+- Plotly
+- Xgboost
+- Scikit-learn
+- Python-multipart
 
 ## Setup
 Open your Windows Terminal and follow the next steps:
