@@ -46,25 +46,22 @@ Open your Windows Terminal and follow the next steps:
 4. Replace the data file path in app.py according to your local file path
    ```bash
    cd + "Your path"
-5. install dependencies
+5. Install dependencies
      ```bash
     pip install -r requirements.txt
 
 If for some reason scikit-learn, uvicorn and python-multipart don't get installed try:
+5.1 Install Scikit-learn
 ```bash
     pip install scikit-learn
 
-
-
-
+5.2 Install Uvicorn
 ```bash
     pip install uvicorn
 
-
-
+5.3 Install Multipart
 ```bash
     pip install python-multipart
-
 
 
 6. On your cmd paste:
