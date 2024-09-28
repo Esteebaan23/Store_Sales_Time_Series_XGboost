@@ -52,15 +52,15 @@ Open your Windows Terminal and follow the next steps:
 
 If for some reason scikit-learn, uvicorn and python-multipart don't get installed try:
 5.1 Install Scikit-learn
-```bash
-    pip install scikit-learn
+   ```bash
+   pip install scikit-learn
 
 5.2 Install Uvicorn
-```bash
-    pip install uvicorn
+   ```bash
+   pip install uvicorn
 
 5.3 Install Multipart
-```bash
+   ```bash
     pip install python-multipart
 
 
