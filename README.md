@@ -55,9 +55,11 @@ If for some reason scikit-learn, uvicorn and python-multipart don't get installe
     pip install scikit-learn
     pip install uvicorn
     pip install python-multipart
+    
 6. On your cmd paste:
    ```bash
    uvicorn app:app --reload
+   
 7. Open the deployment at: http://127.0.0.1:8000
 
 
