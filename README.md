@@ -33,16 +33,31 @@ This is a simple web-based application for predicting sales using the XGboost mo
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/yashaaryan/StoreSalesModelXGSarima.git
+   git clone https://github.com/Esteebaan23/XGboost.git
 
-2. Create Viirtual environments
+2. Unzip the Statics folder inside the cloned folder
+
+3. Create Viirtual environments
    ```bash
    python -m venv myenv
    source myenv/bin/activate
     # On Windows: myenv\Scripts\activate
-5. Replace the data file path in app.py according to your local file path
-6. install dependencies
+4. Replace the data file path in app.py according to your local file path
+   ```bash
+   cd + "Your path"
+5. install dependencies
      ```bash
     pip install -r requirements.txt
+
+   If for some reason scikit-learn, uvicorn and python-multipart don't get installed try:
+     ```bash
+    pip install scikit-learn
+    pip install uvicorn
+    pip install python-multipart
+6. On your cmd paste:
+   ```bash
+   uvicorn app:app --reload
+7. Open the deployment at: http://127.0.0.1:8000
+
 
 If there is any questions you may follow the Steps.docx that you can find in the Deployment ZIP file or in the repository.
