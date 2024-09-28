@@ -54,9 +54,6 @@ If for some reason scikit-learn, uvicorn and python-multipart don't get installe
    ```bash
    cd + "Your path"
 
-
-
-
 6. On your cmd paste:
    ```bash
    uvicorn app:app --reload
