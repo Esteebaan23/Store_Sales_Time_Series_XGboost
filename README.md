@@ -51,6 +51,9 @@ Open your Windows Terminal and follow the next steps:
     pip install -r requirements.txt
 
 If for some reason scikit-learn, uvicorn and python-multipart don't get installed try:
+   ```bash
+   cd + "Your path"
+
 5.1 Install Scikit-learn
    ```bash
    pip install scikit-learn
