@@ -30,7 +30,10 @@ This is a simple web-based application for predicting sales using the XGboost mo
 
 ## Setup
 
-1. Download the Deployment 2 Zip file and open it.
+1. **Clone the repository:**
+
+   ```bash
+   git clone https://github.com/yashaaryan/StoreSalesModelXGSarima.git
 
 2. Create Viirtual environments
    ```bash
