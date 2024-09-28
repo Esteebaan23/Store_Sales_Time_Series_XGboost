@@ -52,9 +52,9 @@ Open your Windows Terminal and follow the next steps:
 
 If for some reason scikit-learn, uvicorn and python-multipart don't get installed try:
    ```bash
-   cd + "Your path"
+   pip install scikit-learn uvicorn python-multipart
 
-6. On your cmd paste:
+6. Then, in your cmd paste:
    ```bash
    uvicorn app:app --reload
    
