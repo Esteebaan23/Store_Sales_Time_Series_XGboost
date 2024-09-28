@@ -3,3 +3,6 @@ pandas
 starlette
 plotly
 xgboost
+scikit-learn
+uvicorn
+python-multipart
