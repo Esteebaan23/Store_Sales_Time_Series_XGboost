@@ -29,6 +29,7 @@ This is a simple web-based application for predicting sales using the XGboost mo
 - python-multipart
 
 ## Setup
+Open your Windows Terminal and follow the next steps:
 
 1. **Clone the repository:**
 
@@ -49,8 +50,8 @@ This is a simple web-based application for predicting sales using the XGboost mo
      ```bash
     pip install -r requirements.txt
 
-   If for some reason scikit-learn, uvicorn and python-multipart don't get installed try:
-     ```bash
+If for some reason scikit-learn, uvicorn and python-multipart don't get installed try:
+    ```bash
     pip install scikit-learn
     pip install uvicorn
     pip install python-multipart
